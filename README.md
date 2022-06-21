@@ -1,4 +1,4 @@
-# @uniswap/hardhat-v3-deploy
+# uniswap-v3-hardhat-deploy
 
 Deploy Uniswap V3 contracts for development in testnet.
 
@@ -30,4 +30,4 @@ AVAILABLE TASKS:
 ```sh
 npx hardhat deploy-uniswap
 ```
-
+<img src="./demo/demo_deploy_result.png" width="500"></img>
