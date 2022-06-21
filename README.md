@@ -25,7 +25,7 @@ AVAILABLE TASKS:
   test                  Runs mocha tests
 ```
 
-## Deploy
+## Deployment
 
 ```sh
 npx hardhat deploy-uniswap
