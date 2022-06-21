@@ -1,45 +1,33 @@
 # @uniswap/hardhat-v3-deploy
 
-Deploy Uniswap V3 contracts in development.
+Deploy Uniswap V3 contracts for development in testnet.
 
 ## Installation
 
 ```sh
-$ npm install @uniswap/hardhat-v3-deploy
+yarn install
 ```
 
-Import the plugin in your `hardhat.config.js`:
-
-```js
-require("@uniswap/hardhat-v3-deploy");
-```
-
-Or if you are using TypeScript, in your `hardhat.config.ts`:
-
-```ts
-import "@uniswap/hardhat-v3-deploy";
-```
-
-Now, run `npm run hardhat` and you should see:
+## Command and parameters
+Use `npx hardhat` and you should see:
 
 ```
 AVAILABLE TASKS:
-
-  accounts      	Prints the list of accounts
-  ...
-  deploy-uniswap	Deploys Uniswap V3 contracts
-  ...
-  test          	Runs mocha tests
+  check                 Check whatever you need
+  clean                 Clears the cache and deletes all artifacts
+  compile               Compiles the entire project, building all artifacts
+  console               Opens a hardhat console
+  deploy-uniswap        Deploys Uniswap V3 contracts
+  flatten               Flattens and prints contracts and their dependencies
+  help                  Prints this message
+  node                  Starts a JSON-RPC server on top of Hardhat Network
+  run                   Runs a user-defined script after compiling the project
+  test                  Runs mocha tests
 ```
 
-Great! Now, to deploy the contracts:
+## Deploy
 
 ```sh
-$ npm run hardhat deploy-uniswap
+npx hardhat deploy-uniswap
 ```
 
-And you're done. Time to build something great.
-
-## Plugin Development
-
-TODO
